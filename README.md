@@ -1,2 +1,2 @@
 # code_analyser_api
-LLM-based codebase analyzer
+LLM-based codebase analyzer using API
