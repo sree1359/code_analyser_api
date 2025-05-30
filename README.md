@@ -12,8 +12,8 @@ Supports:
 ---
 
 ## 📦 Project Structure
-code_analyzer/< br / >
-├── app/< br / >
+code_analyzer/  
+├── app/  
 │   ├── api/            # FastAPI routes< br / >
 │   ├── core/           # logger.py, config< br / >
 │   ├── services/       # analyzer, cloner, extractor, chunker, file_loader< br / >
