@@ -14,16 +14,16 @@ Supports:
 ## 📦 Project Structure
 code_analyzer/  
 ├── app/  
-│   ├── api/            # FastAPI routes< br / >
-│   ├── core/           # logger.py, config< br / >
-│   ├── services/       # analyzer, cloner, extractor, chunker, file_loader< br / >
-│   └── templates/      # prompt_template.py< br / >
-├── cli/                # run_analysis.py< br / >
-├── tests/              # test_analyzer.py, etc.< br / >
-├── .env                # Store your API keys here< br / >
-├── requirements.txt< br / >
-├── server.py           # FastAPI entry point< br / >
-├── README.md< br / >
+│   ├── api/            # FastAPI routes  
+│   ├── core/           # logger.py, config  
+│   ├── services/       # analyzer, cloner, extractor, chunker, file_loader  
+│   └── templates/      # prompt_template.py  
+├── cli/                # run_analysis.py  
+├── tests/              # test_analyzer.py, etc.  
+├── .env                # Store your API keys here  
+├── requirements.txt  
+├── server.py           # FastAPI entry point  
+├── README.md  
 
 ---
 
@@ -61,8 +61,6 @@ pip install -r requirements.txt
 
 
 -----
-
-
 #### ✅ Assignment Compliance
 | Requirement                    | Status |
 |-------------------------------|--------|
@@ -75,8 +73,6 @@ pip install -r requirements.txt
 | 🌍 Multi-language Support      | ✅     |
 
 -----
-
-
 #### 🤗 Alternative: Hugging Face Support
 🔐 Step 1: Get HF Token
     1. Create free account at huggingface.co
