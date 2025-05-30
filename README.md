@@ -54,11 +54,12 @@ $env:GROQ_API_KEY = "gsk_your_actual_key"
 pip install -r requirements.txt
 
 #### ⚙️ Step 4: Run the code
-1. Run via CLI: 
+1. **Run via CLI:** 
     python cli/run_analysis.py https://github.com/janjakovacevic/SakilaProject
-2. Run API with FastAPI: uvicorn server:app --reload |
-   Visit Swagger UI: http://localhost:8000/docs     |
-   Use the /analyze endpoint with a GitHub repo URL     |
+2. **Run API with FastAPI:**
+   1. uvicorn server:app --reload
+   2. Visit Swagger UI: http://localhost:8000/docs
+   2. Use the /analyze endpoint with a GitHub repo URL
 
 
 -----
