@@ -59,7 +59,7 @@ pip install -r requirements.txt
 2. **Run API with FastAPI:**
    1. uvicorn server:app --reload
    2. Visit Swagger UI: http://localhost:8000/docs
-   2. Use the /analyze endpoint with a GitHub repo URL
+   3. Use the /analyze endpoint with a GitHub repo URL
 
 
 -----
