@@ -12,30 +12,40 @@ Supports:
 ---
 
 ## 📦 Project Structure
-<pre> code_analyzer/ ├── app/ │ ├── api/ # FastAPI routes │ ├── core/ # logger.py, config │ ├── services/ # analyzer, cloner, extractor, chunker, file_loader │ └── templates/ # prompt_template.py ├── cli/ # run_analysis.py ├── tests/ # test_analyzer.py etc. ├── .env # Store your API keys here ├── requirements.txt ├── server.py # FastAPI entry point └── README.md </pre>
-
+code_analyzer/< br / >
+├── app/< br / >
+│   ├── api/            # FastAPI routes< br / >
+│   ├── core/           # logger.py, config< br / >
+│   ├── services/       # analyzer, cloner, extractor, chunker, file_loader< br / >
+│   └── templates/      # prompt_template.py< br / >
+├── cli/                # run_analysis.py< br / >
+├── tests/              # test_analyzer.py, etc.< br / >
+├── .env                # Store your API keys here< br / >
+├── requirements.txt< br / >
+├── server.py           # FastAPI entry point< br / >
+├── README.md< br / >
 
 ---
 
-## 🚀 Option 1: Use Groq (RECOMMENDED)
+### 🚀 Option 1: Use Groq (RECOMMENDED)
 
-### 🔐 Step 1: Get Groq API Key
+# 🔐 Step 1: Get Groq API Key
 1. Visit [https://console.groq.com](https://console.groq.com)
 2. Sign up, go to "API Keys", click "Create API Key"
 3. Copy your key (starts with `gsk_...`)
 
 ---
 
-### 🧪 Step 2: Set Environment Variable
+## 🧪 Step 2: Set Environment Variable
 
-#### Linux/macOS
+# Linux/macOS
 ### bash
 export GROQ_API_KEY="gsk_your_actual_key"
 
 ---
-### Windows CMD
+## Windows CMD
 set GROQ_API_KEY="gsk_your_actual_key"
-## PowerShell
+# PowerShell
 $env:GROQ_API_KEY = "gsk_your_actual_key"
 
 ## ⚙️ Installation
@@ -51,6 +61,8 @@ pip install -r requirements.txt
 
 
 -----
+
+
 #### ✅ Assignment Compliance
 | Requirement                    | Status |
 |-------------------------------|--------|
@@ -97,14 +109,14 @@ pip install -r requirements.txt
 ----
 
 #### 🔧 Troubleshooting
-## "API Key not found"
+## API Key not found
 1. Ensure env var is set correctly
 2. Restart terminal
 3. Run:
     1. echo $GROQ_API_KEY   # macOS/Linux
     2.  echo %GROQ_API_KEY%  # Windows CMD
 
-## "Rate limit exceeded"
+## Rate limit exceeded
     Groq: 14,400 requests/day (very generous)
     Hugging Face: ~1,000/month for free tier
 ## Model not found
