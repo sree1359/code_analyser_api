@@ -63,14 +63,16 @@ pip install -r requirements.txt
 
 -----
 #### ✅ Assignment Compliance
-Requirement	Status
-📁 Codebase: SakilaProject	✅ \n
-⚙️ Efficient Processing	✅
-🤖 LangChain LLM Integration	✅
-📏 Token-Aware Chunking	✅
-📊 Structured JSON Output	✅
-♻️ Modular Code Structure	✅
-🌍 Multi-language Support	✅
+| Requirement                    | Status |
+|-------------------------------|--------|
+| 📁 Codebase: SakilaProject     | ✅     |
+| ⚙️ Efficient Processing        | ✅     |
+| 🤖 LangChain LLM Integration   | ✅     |
+| 📏 Token-Aware Chunking        | ✅     |
+| 📊 Structured JSON Output      | ✅     |
+| ♻️ Modular Code Structure      | ✅     |
+| 🌍 Multi-language Support      | ✅     |
+
 -----
 
 
